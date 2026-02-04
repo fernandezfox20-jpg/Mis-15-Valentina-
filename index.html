@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis 15 Años</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(135deg, #fde2ea, #f7c7d9);
+      color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 30px 20px 60px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.6em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+
+    .message {
+      background: rgba(255,255,255,0.85);
+      padding: 25px;
+      border-radius: 18px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+
+    .audio-box {
+      background: rgba(255,255,255,0.9);
+      padding: 20px;
+      border-radius: 18px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Mis 15 Años</h1>
+    <h2>Un mensaje para vos 💖</h2>
+
+    <div class="message">
+      <p>Hola 💕</p>
+
+      <p>
+        Quise crear este espacio para compartir con vos lo que siento
+        en este momento tan especial de mi vida. Mis 15 años son sueños,
+        aprendizajes, recuerdos y mucho amor.
+      </p>
+
+      <p>
+        Gracias por acompañarme y ser parte de mi historia.
+      </p>
+
+      <p>Con todo mi cariño 💫</p>
+    </div>
+
+    <div class="gallery">
+      <!-- Cambiá los nombres por tus fotos reales -->
+      <img src="foto1.jpg" alt="Foto 1">
+      <img src="foto2.jpg" alt="Foto 2">
+      <img src="foto3.jpg" alt="Foto 3">
+    </div>
+
+    <div class="audio-box">
+      <p><strong>Escuchá mi mensaje 🎧</strong></p>
+      <!-- Cambiá audio.mp3 por tu audio real -->
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <footer>
+      Hecho con amor ✨
+    </footer>
+
+  </div>
+</body>
+</html>
